@@ -17,7 +17,7 @@ function AddMoviePopup({ onClose ,onAddMovie}) {
     e.preventDefault();
     // const updatedMovies = [...movies, { ...newMovie, id: Date.now() }];
     try {
-     let res =await axios.post("moviereview-backend.vercel.app/add-movie", movies);
+     let res =await axios.post("https://moviereview-backend.vercel.app/add-movie", movies);
      setMovies({name:"", releaseDate:""})
     } catch (error) {
       console.log(error);
