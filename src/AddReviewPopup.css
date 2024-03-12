@@ -1,0 +1,66 @@
+/* AddReviewPopup.css */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-inner {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px; /* Adjust width as needed */
+}
+
+.popup-inner form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-inner form label {
+  margin-bottom: 10px;
+}
+
+.popup-inner form input,
+.popup-inner form select,
+.popup-inner form textarea {
+  padding: 5px;
+  margin-bottom: 15px; /* Add margin bottom for space between elements */
+  width: 100%; /* Make inputs and select full width */
+}
+
+.popup-inner form .button-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-inner form .button-group button {
+  background-color: #6558F5;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-bottom: 15px; /* Add margin bottom for space between buttons */
+  cursor: pointer;
+  width: 100%; /* Make buttons full width */
+}
+
+.popup-inner form .button-group button:last-child {
+  margin-bottom: 0;
+}
+.popup-inner form label,
+.popup-inner form input,
+.popup-inner form select,
+.popup-inner form textarea {
+  margin-bottom: 15px;
+}
+
+.popup-inner form .button-group button {
+  margin-bottom: 15px;
+}
+
