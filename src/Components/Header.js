@@ -7,9 +7,8 @@ function Header({ onAddMovie, onAddReview }) {
       <h1>MOVIECRITIC</h1>
       <nav>
         <ul>
-          <li>Home</li>
-          <li><button onClick={onAddMovie}>Add new movie</button></li>
-          <li><button onClick={onAddReview}>Add new review</button></li>
+          <li><button className="button-primary-1"onClick={onAddMovie}>Add new movie</button></li>
+          <li><button className="button-primary-2" onClick={onAddReview}>Add new review</button></li>
         </ul>
       </nav>
     </header>

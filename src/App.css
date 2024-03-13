@@ -7,8 +7,8 @@ body, html {
 
 /* Header Styles */
 .header {
-  background-color: purple;
-  color: white;
+  background-color: #E0DEFD;
+  color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
@@ -16,6 +16,14 @@ body, html {
 
 .header h1 {
   margin: 0;
+}
+.button-primary-1{
+  background-color: #ffffff;
+  color: #6558F5;
+}
+.button-primary-2{
+  background-color: #6558F5;
+  color: rgb(255, 255, 255);
 }
 
 .header nav ul {
@@ -60,7 +68,7 @@ body, html {
 
 .movie h3 {
   margin: 0;
-  color: purple;
+  color:#E0DEFD;
 }
 
 .movie p {
@@ -69,8 +77,8 @@ body, html {
 
 /* Footer Styles */
 .footer {
-  background-color: purple;
-  color: white;
+  background-color: #E0DEFD;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 10px 20px;
   position: fixed;
